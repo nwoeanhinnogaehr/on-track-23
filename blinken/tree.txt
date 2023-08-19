@@ -1,0 +1,17 @@
+Squeeze
+Bitdepth 7
+RCT 17
+
+if c > 8
+  if c > 18
+    if |W| > 16
+      - Set 0
+      if N > 0
+        - Weighted -2
+        - Weighted 2
+    if |W| > 256
+      - Set 0
+      if N > 0
+        - NE -32
+        - AvgN+NE 16
+  - Set 0

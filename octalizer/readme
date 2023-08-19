@@ -1,0 +1,24 @@
+octalizer
+
+255 bytes linux executable music for On Track 2023 @ CCCamp
+
+code: byte.observer
+github: @nwoeanhinnogaehr
+https://byte.observer
+
+To run:
+$ ./octalizer
+
+NOTE: the output is a little hot, so depending on your audio
+setup, it may clip within your system's mixer. To fix this,
+just turn down the volume of the application.
+
+The included flac recording is the raw output of the program
+but mixed down to 2 channels and 44.1KHz and faded out after
+4 minutes.
+
+To build:
+$ python3 mkpatchtab.py script.py
+requires nasm
+
+Greets to sizecoders around the globe.
